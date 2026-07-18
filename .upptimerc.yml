@@ -13,7 +13,7 @@
 # The /v1/health endpoint is unauthenticated liveness (no tenant data), so
 # public monitoring leaks nothing beyond version + uptime.
 
-owner: lexicor        # GitHub org/user that hosts the status repo
+owner: thebigduck        # GitHub org/user that hosts the status repo
 repo: status
 
 sites:
