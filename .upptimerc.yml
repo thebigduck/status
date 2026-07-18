@@ -1,31 +1,43 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Upptime configuration for status.lexicor.io (Tier B / B7).
+#
+# Upptime (https://upptime.js.org) is a GitHub-Actions-powered status page:
+# zero servers, free on a public or private repo, ~20 min to stand up.
+#
+# Setup (one-time, needs the GitHub account):
+#   1. Generate a repo from https://github.com/upptime/upptime (e.g. lexicor/status)
+#   2. Copy this file to that repo's .upptimerc.yml
+#   3. Add a PAT secret GH_PAT with repo scope (per Upptime docs)
+#   4. CNAME status.lexicor.io -> <org>.github.io (Upptime handles TLS via Pages)
+#   5. Link "Status" from stealth-site-next footer only at B6b — not before.
+#
+# The /v1/health endpoint is unauthenticated liveness (no tenant data), so
+# public monitoring leaks nothing beyond version + uptime.
+
+owner: lexicor        # GitHub org/user that hosts the status repo
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Lexicor API
+    url: https://api.lexicor.io/v1/health
+    expectedStatusCodes: [200]
+  - name: Lexicor Docs & Site
+    url: https://lexicor.io
+    expectedStatusCodes: [200]
+  # Add when HC4/OP4 ship (keep ops private if IP-allowlisted):
+  # - name: Customer Console
+  #   url: https://console.lexicor.io
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.lexicor.io
+  name: Lexicor Status
+  introTitle: "Lexicor service status"
+  introMessage: "Live availability and response-time history for the Lexicor hosted platform."
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: lexicor.io
+      href: https://lexicor.io
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# SLO context: docs/operations/multi-tenant-slos.md (standard 99.5% / enterprise 99.9%).
+# Incident process: docs/security/incident-response.md — post updates as issues
+# in the status repo (Upptime renders them as incident history).
