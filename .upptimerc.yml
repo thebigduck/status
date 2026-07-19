@@ -7,13 +7,17 @@
 #   1. Generate a repo from https://github.com/upptime/upptime (e.g. lexicor/status)
 #   2. Copy this file to that repo's .upptimerc.yml
 #   3. Add a PAT secret GH_PAT with repo scope (per Upptime docs)
-#   4. CNAME status.lexicor.io -> <org>.github.io (Upptime handles TLS via Pages)
-#   5. Link "Status" from stealth-site-next footer only at B6b — not before.
+#   4. CNAME status.lexicor.io -> <org>.github.io; wait for Pages cert Issued,
+#      then Enforce HTTPS (see docs/operations/status-page.md).
+#   5. Link "Status" from stealth-site-next footer (done).
+#
+# Live status repo: thebigduck/status (gh-pages). Sync this file there when
+# changing checks.
 #
 # The /v1/health endpoint is unauthenticated liveness (no tenant data), so
 # public monitoring leaks nothing beyond version + uptime.
 
-owner: thebigduck        # GitHub org/user that hosts the status repo
+owner: thebigduck
 repo: status
 
 sites:
@@ -23,9 +27,9 @@ sites:
   - name: Lexicor Docs & Site
     url: https://lexicor.io
     expectedStatusCodes: [200]
-  # Add when HC4/OP4 ship (keep ops private if IP-allowlisted):
-  # - name: Customer Console
-  #   url: https://console.lexicor.io
+  - name: Customer Console
+    url: https://console.lexicor.io
+    expectedStatusCodes: [200]
 
 status-website:
   cname: status.lexicor.io
