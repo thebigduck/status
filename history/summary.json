@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.lexicor.io.ico",
     "slug": "lexicor-api",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.72%",
+    "uptimeDay": "92.50%",
+    "uptimeWeek": "98.93%",
+    "uptimeMonth": "99.72%",
+    "uptimeYear": "99.72%",
     "time": 233,
     "timeDay": 292,
     "timeWeek": 240,
     "timeMonth": 233,
     "timeYear": 233,
     "dailyMinutesDown": {
-      "2026-08-14": 0
+      "2026-08-14": 108
     }
   },
   {
