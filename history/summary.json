@@ -4,18 +4,20 @@
     "url": "https://api.lexicor.io/v1/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.lexicor.io.ico",
     "slug": "lexicor-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 233,
-    "timeDay": 354,
-    "timeWeek": 233,
+    "timeDay": 292,
+    "timeWeek": 240,
     "timeMonth": 233,
     "timeYear": 233,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-08-14": 0
+    }
   },
   {
     "name": "Lexicor Docs & Site",
@@ -30,7 +32,7 @@
     "uptimeYear": "100.00%",
     "time": 312,
     "timeDay": 503,
-    "timeWeek": 311,
+    "timeWeek": 319,
     "timeMonth": 312,
     "timeYear": 312,
     "dailyMinutesDown": {}
@@ -48,7 +50,7 @@
     "uptimeYear": "100.00%",
     "time": 802,
     "timeDay": 598,
-    "timeWeek": 1790,
+    "timeWeek": 1984,
     "timeMonth": 802,
     "timeYear": 802,
     "dailyMinutesDown": {}
