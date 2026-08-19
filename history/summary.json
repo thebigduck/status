@@ -5,15 +5,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.lexicor.io.ico",
     "slug": "lexicor-api",
     "status": "up",
-    "uptime": "99.76%",
+    "uptime": "99.77%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "98.93%",
     "uptimeMonth": "99.75%",
-    "uptimeYear": "99.76%",
+    "uptimeYear": "99.77%",
     "time": 231,
-    "timeDay": 191,
-    "timeWeek": 227,
-    "timeMonth": 234,
+    "timeDay": 221,
+    "timeWeek": 233,
+    "timeMonth": 239,
     "timeYear": 231,
     "dailyMinutesDown": {
       "2026-08-14": 108
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 305,
-    "timeDay": 313,
-    "timeWeek": 289,
-    "timeMonth": 304,
-    "timeYear": 305,
+    "time": 304,
+    "timeDay": 277,
+    "timeWeek": 292,
+    "timeMonth": 311,
+    "timeYear": 304,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 737,
-    "timeDay": 250,
-    "timeWeek": 330,
+    "time": 724,
+    "timeDay": 315,
+    "timeWeek": 349,
     "timeMonth": 737,
-    "timeYear": 737,
+    "timeYear": 724,
     "dailyMinutesDown": {}
   }
 ]
