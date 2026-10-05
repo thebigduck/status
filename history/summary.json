@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.lexicor.io.ico",
     "slug": "lexicor-api",
     "status": "up",
-    "uptime": "99.90%",
+    "uptime": "99.91%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.90%",
-    "time": 253,
-    "timeDay": 159,
-    "timeWeek": 198,
-    "timeMonth": 233,
-    "timeYear": 253,
+    "uptimeYear": "99.91%",
+    "time": 252,
+    "timeDay": 142,
+    "timeWeek": 189,
+    "timeMonth": 228,
+    "timeYear": 252,
     "dailyMinutesDown": {
       "2026-08-14": 108
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 266,
-    "timeDay": 181,
-    "timeWeek": 223,
-    "timeMonth": 228,
-    "timeYear": 266,
+    "time": 264,
+    "timeDay": 85,
+    "timeWeek": 213,
+    "timeMonth": 223,
+    "timeYear": 264,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 469,
-    "timeDay": 287,
-    "timeWeek": 316,
-    "timeMonth": 310,
-    "timeYear": 469,
+    "time": 465,
+    "timeDay": 221,
+    "timeWeek": 314,
+    "timeMonth": 307,
+    "timeYear": 465,
     "dailyMinutesDown": {}
   }
 ]
